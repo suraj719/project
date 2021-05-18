@@ -1,0 +1,41 @@
+header {
+    background-color: pink;
+    color: black;
+    width:100%;
+    padding:8px;
+}
+h1 {
+    display: inline;
+}
+a {
+    text-decoration: none;
+    float:right;
+    display: inline;
+    margin-right: 10px;
+}
+.loginbox {
+    width: 320px;
+    height: 420px;
+    background: #fff;
+    border: 2px solid #000;
+    color:darkorange;
+    top: 50%;
+    left: 70%;
+    position:absolute;
+    transform: translate(-50%,-50%);
+    box-sizing:border-box;
+    padding: 70px 30px;
+}
+
+.loginbox input {
+    width: 240px;
+    padding: 8px;
+    margin-bottom: 15px;
+    border-radius: 3px;
+}
+
+.login {
+    background-color: rgb(34, 129, 236);
+    color: white;
+    font-size: 15px;
+}
